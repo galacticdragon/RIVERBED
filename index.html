@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Riverbed</title>
+      <link href="resources/css/style.css" type="text/css" rel="stylesheet">
+  </head>
+  <body>
+    <div id="navbar">
+      <h1> Riverbed: Rental Inventory Business Database</h1>
+      <nav>
+        <ul>
+          <li id="ordering">
+            <a class="menu-heading" href="">Ordering</a>
+            <p>ORDER:STATUS_CODES{PENCIL, CONFIRMED, CANCELLED, PART-SHIP, PART-RET, RETURNED, SHIPPED}</p>
+          </li>
+            <ul>
+              <li id="ordering.rentals">Rentals</li>
+                <ul>
+                  <li id="ordering.rentals.contracts">Contract</li>
+                  <li id="ordering.rentals.invoices">Invoices</li>
+                  <li id="ordering.rentals.manifests">Manifests</li>
+                  <li id="ordering.rentals.packinglist">Packing Lists</li>
+                  <li id="ordering.rentals.prepsheet">Prep Sheets</li>
+                  <li id="ordering.rentals.shippingconfirmation">Shipping Confirmation</li>
+                  <li id="ordering.rentals.weightsdimensions">Weights and Dimensions</li>
+                </ul>
+              <li id="ordering.sales">Sales</li>
+                <ul>
+                  <li id="ordering.sales.quotes">Quotes</li>
+                  <li id="ordering.sales.estimates">Estimates</li>
+                  <li id="ordering.sales.invoices">Invoices</li>
+                  <li id="ordering.sales.payments">Payments</li>
+                  <li id="ordering.sales.expenses">Expenses</li>
+                </ul>
+              <li id="ordering.purchaseorders">Purchase Orders</li>
+            </ul>
+          <li id="items">
+            <a  class="menu-heading" href="">Items</a>
+          </li>
+            <ul>
+              <li id="items.categories">Item Categories</li>
+              <li id="items.makes">Item Makes</li>
+              <li id="items.types">Item Types</li>
+              <li id="items.availabilties">Item Availabily</li>
+              <li id="items.transactions">Item Transaction</li>
+              <li id="items.vendors">Item Vendors</li>
+            </ul>
+          <li id="barcodes">
+            <a class="menu-heading" href="">Barcodes</a>
+          </li>
+          <li id="repairs">
+            <a class="menu-heading" href="">Repairs</a>
+          </li>
+          <li id="humanresources">
+            <a class="menu-heading" href="">Human Resources</a>
+              <ul>
+                <li id="hr.employees">Employees</li>
+                <li id="hr.timeclock">Time Clock</li>
+                <li id="hr.timesheets">Time Sheets</li>
+                <li id="payroll">Payroll</li>
+                  <ul>
+                    <li id="payroll.grades">Pay Grades</li>
+                    <li id="payroll.rates">Pay Rates</li>
+                    <li id="payroll.periods">Pay Periods</li>
+                  </ul>
+                <il id="hr.roles">Employee Roles</li>
+              </ul>
+          </li>
+          <li id="customerrelations">
+            <a class="menu-heading" href="">Customer Relations</a>
+              <ul>
+                <li id="cusrel.contacts">Contacts</li>
+                <li id="cusrel.customers">Customers</li>
+                <li id="cusrel.companies">Companies</li>
+                <li id="cusrel.leads">Leads</li>
+              </ul>
+          </li>
+          <li id="projects">
+            <a class="menu-heading" href="">Projects</a>
+            <p>PROJECTS:STATUS_CODES{open,approved, in-progress, cancelled, closed, complete, invoiced, archived}</p>
+              <ul>
+                <li id="projects.tasks">Tasks</li>
+                <li id="projects.milestones">Milestones</li>
+                <li id="projects.types">Project Types</li>
+              </ul>
+          </li>
+          <li id="distribution">
+            <a class="menu-heading" href="">Distribution</a>
+              <ul>
+                <li id="distro.shipping">Shipping</li>
+                <li id="distro.receiving">Receiving</li>
+                <li id="distro.confirmsale">Confirm Sale Shipment</li>
+                <li id="distro.confirmrental">Confirm Rental Shipment</il>
+                <li id="distro.weeklyshipcalendar">Weekly Shipping Calendar</li>
+                <li id="distro.weeklyreceivingcalendar">Weekly Receiving Calendar</li>
+              </ul>
+          </li>
+          <li id="scans">
+            <a class="menu-heading" href="">Scans</a>
+              <p>RVRBD.Scans.data[UUID] = {"ScanOut":{"id","barcode_id","order_id", "item_id", "is_override", "is_missing", "scan_in_id", "scan_datetime", "error_handled", "user_id", "created", "modified", "is_active", "is_lost", "is_rollover", "ScanIn"}</p>
+              <ul>
+                <li id="scans.in">Scan In</li>
+                <li id="scans.out">Scan Out</li>
+                <li id="scans.audit">Scan Audit</li>
+                <li id="scans.scans">Scans</li>
+              </ul>
+          </li>
+          <li id="reports">
+            <a class="menu-heading" href="">Reports</a>
+          </li>
+          <li id="admin">
+            <a class="menu-heading" href="">Administration</a>
+          </li>
+          <li id="testing">
+            <a class="menu-heading" href="">Testing</a>
+          </li>
+          <li id="search">
+            <a class="menu-heading" href="">Search</a>
+          </li>
+      </ul>
+    </nav>
+  </div>
+  <div id="body-content">
+    <h2>Welcome to Riverbed</h2>
+    <h3>Riverbed is a complete software package for businesses specilizing in "revolving-door" rental operations. Just like a river, relative to you, the user, there is an upstream side and a downstream side.<br />
+       Riverbed uses this methodology to streamline the rental process from new order all the through to when the items come back through the door. Riverbed breaks the operation down into upstream and downstream modules, which can be assigned to different members of your team. <br />
+       The upstream module focuses on customer relations as well as ingesting orders. The downstream module handles back-office operations such as inventory, shipping/receiving, accounting, support, and fulfillment.</h3>
+  </div>
+  </body>
+</html>
