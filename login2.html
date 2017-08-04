@@ -15,6 +15,11 @@
 
     <!-- Custom styles for this template -->
     <link href="resources/css/sticky-footer-navbar.css" type="text/css" rel="stylesheet">
+
+    <!-- Custom Style for this page -->
+    <link href="resources/css/login.css" type="text/css" rel="stylesheet">
+    <link href="resources/css/login2.css" type="text/css" rel="stylesheet">
+
   </head>
 
   <body>
@@ -64,12 +69,26 @@
 
     <!-- Begin page content -->
     <div class="container">
-      <div class="mt-3">
-        <h1>Riverbed: Rental Inventory Business Database</h1>
-      </div>
-      <p class="lead">Pin a fixed-height footer to the bottom of the viewport in desktop browsers with this custom HTML and CSS. A fixed navbar has been added with <code>padding-top: 60px;</code> on the <code>body &gt; .container</code>.</p>
-      <p>Back to <a>the default sticky footer</a> minus the navbar.</p>
-    </div>
+
+      <div class="login-page">
+  <div class="form">
+    <form class="register-form">
+      <input type="text" placeholder="name"/>
+      <input type="password" placeholder="password"/>
+      <input type="text" placeholder="email address"/>
+      <button>create</button>
+      <p class="message">Already registered? <a href="#">Sign In</a></p>
+    </form>
+    <form class="login-form">
+      <input type="text" placeholder="username"/>
+      <input type="password" placeholder="password"/>
+      <button>login</button>
+      <p class="message">Not registered? <a href="#">Create an account</a></p>
+    </form>
+  </div>
+</div>
+
+    </div> <!-- /container -->
 
     <footer class="footer">
       <div class="container">
@@ -86,6 +105,7 @@
     <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
     <script src="resources/js/bootstrap.min.js"></script>
+    <script src="resrouces/js/login.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="resources/js/ie10-viewport-bug-workaround.js"></script>
   </body>
